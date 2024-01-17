@@ -1,8 +1,8 @@
 
 function generatePassword() {
   // Sends the user prompts asking for a minimum and maximum length for their password. The user's entry then becomes the value for the minLength and maxLength variables.
-  let minLength = prompt("Enter minimum password length:");
-  let maxLength = prompt("Enter the maximum password length:");
+  let minLength = prompt("Enter minimum password length (must be at least 8):");
+  let maxLength = prompt("Enter the maximum password length (must be less than 128):");
 // Converts the values for minLength and maxLength into numbers instead of strings.
   minLength = parseInt(minLength, 10);
   maxLength = parseInt(maxLength, 10);
