@@ -6,6 +6,8 @@ This random password generator is great for employees who need a secure password
 
 When you click, "Generate Password", a series of prompts come up asking for your preferred parameters for your password. Enter your preferred minimum and maximum password length, and select your preferred character sets. After all prompts are answered, you are returned with a unique and personal password.
 
+![screenshot of application](friendly-parakeet\Develop\images\Capture.JPG "Screenshot")
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
